@@ -47,9 +47,11 @@
 #endif
 
 // Labeled pins
-#define TG_HEATER_BED_PIN                      8
+#define TEMP_BED_PIN                        14  // Analog Input
+
+#define TG_HEATER_BED_PIN                      45 // swapped for 8
 #define TG_HEATER_0_PIN                       10
-#define TG_HEATER_1_PIN                       45  // Anycubic Kossel: Unused
+//#define TG_HEATER_1_PIN                       45  // Anycubic Kossel: Unused
 
 #define TG_FAN0_PIN                            9  // Anycubic Kossel: Usually the part cooling fan
 #define TG_FAN1_PIN                            7  // Anycubic Kossel: Unused
